@@ -1,0 +1,66 @@
+{
+    "dataset":{
+        "dataset_path": "\\tf\\Vessel_dataset\\DRIVE\\",
+
+        "train_dir": "training\\",
+        "train_image": "images\\",
+        "train_mask": "mask\\",
+        "train_patch": "patches\\",
+        "train_groundtruth": "1st_manual\\",
+        "train_augment_path": "train_augment_image\\",
+        "train_gt_augment_path" :"groundtruth_augment_image\\",
+        "tr_binary_savepath": "train binary image\\",
+
+        "val_binary_savepath": "val binary image\\", 
+        "val_prediction": "val pred image\\",
+
+        "test_dir": "test\\",
+        "test_image": "images\\",
+        "test_mask": "mask\\",
+        "test_groundtruth": "groundtruth\\",
+        "test_pred_savepath": "prediction result 20220724_000610\\"
+    },
+    "data attributes":{ 
+        "patch_size": 300,
+        "overlap": 100,
+        "resize": 300 
+    },
+    "training":{
+        "Epoch": 200,
+        "batch_size": 10,
+        "Adam_learning_rate": 1e-3,
+        "SGD_learning_rate": 1e-4,
+        "training_ratio": 0.9,
+        "validation_time": 2,
+        "early_stop": 25,
+        "SEED": 820,
+        "checkpoint_dir": "./ckpt7_stare_RestwNet/",
+        "logs": "./logs/",
+        "file_name": "20220801_000610",
+        "save_result":"./experiment history result/"
+    },
+    "testing dataset":{
+        "dataset_DRIVE": "DRIVE",
+        "dataset_STARE": "STARE",
+        "STARE_path": "\\tf\\Vessel_dataset\\STARE\\",
+        "STARE_IMG": "all-images\\",
+        "STARE_VKGT": "labels-vk\\",
+        "STARE_mask": "STARE_created_mask\\",
+        "STARE_test_pred_savepath": "STARE prediction result\\",
+
+        "STARE_train_augment":"STARE train augment image\\",
+        "STARE_gt_augment":"STARE gt augment image\\",
+        "STARE_train_patches":"STARE train patches\\",
+        "STARE_tr_binary_savepath": "STARE train binary\\",
+        "STARE_val_binary_savepath": "STARE val binary\\",
+
+        "dataset_HRF": "HRF",
+        "HRF_path" : "\\tf\\Vessel_dataset\\HRF\\",
+        "HRF_diabetic": "diabetic\\",
+        "HRF_glaucoma": "glaucoma\\",
+        "HRF_healthy" : "healthy\\",
+        "HRF_dr_test_pred_savepath":"HRF diabetic prediction result\\",
+        "HRF_g_test_pred_savepath":"HRF glaucoma prediction result\\",
+        "HRF_h_test_pred_savepath":"HRF healthy prediction result\\"
+    }
+}
