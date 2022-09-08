@@ -6,4 +6,4 @@ We develop two models structure for Retinal Blood Vessel Segmentation with DRIVE
 #Remenber to modify the dataset path according to your setting.
 
 # Dataset
-The dataset can be found [id]:(https://drive.grand-challenge.org/) "HERE"
+The dataset can be found [id]: https://drive.grand-challenge.org/ "HERE"
