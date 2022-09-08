@@ -28,6 +28,15 @@ The training of the neural network is performed on sub-images (patches) of the p
 
 Training is performed for 200 epochs, with a mini-batch size of 10 patches. Using a GeForce RTX 3090 GPU the training lasts for about 6.5 hours.
 
+
 # Result on DRIVE database
 Testing is performed with the 20 images of the DRIVE testing dataset, using the gold standard as ground truth. 
 
+# Reference
+[1]	J. Ba and R. Caruana, "Do deep nets really need to be deep?," Advances in neural information processing systems, vol. 27, 2014.
+
+[2] J. Chen, D. Zhou, Y. Tang, Z. Yang, Y. Cao, and Q. Gu, "Closing the generalization gap of adaptive gradient methods in training deep neural networks," arXiv    preprint arXiv:1806.06763, 2018.
+
+[3] L. Luo, Y. Xiong, Y. Liu, and X. Sun, "Adaptive gradient methods with dynamic bound of learning rate," arXiv preprint arXiv:1902.09843, 2019.
+
+[4] I. Atli and O. S. Gedik, "Sine-Net: A fully convolutional deep learning architecture for retinal blood vessel segmentation," Engineering Science and Technology, an International Journal, vol. 24, no. 2, pp. 271-283, 2021.
