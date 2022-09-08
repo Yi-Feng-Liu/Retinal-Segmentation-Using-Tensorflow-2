@@ -1,0 +1,7 @@
+<models.Res_Triangular_wave_Net object at 0x0000024F56D049A0>_result : 
+Average predict time: 4.3369
+Average Accuracy for all prediction :0.9632
+Average AUC_ROC for all prediction :0.9811
+Average Sensitivity for all prediction :0.8378
+Average Specificity for all prediction :0.9754
+Average Cohen kappa for all prediction :0.7786
