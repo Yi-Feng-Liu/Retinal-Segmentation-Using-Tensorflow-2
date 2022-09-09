@@ -1,5 +1,5 @@
 # Retinal-Segmentation-Using-Tensorflow-2
-This repository contains the implementation of a CNN used to segment retinal vessels in retina fundus images. This is a binary classification task: the neural network predicts if each pixel in the fundus image is either a vessel or not. The performance of this network is tested on the DRIVE database, and it achieves the best score in terms of area under the ROC curve in comparison to the other methods published so far.
+This repository contains the implementation of a CNN used to segment retinal vessels in retina fundus images. This is a binary classification task: the neural network predicts if each pixel in the fundus image is either a vessel or not. The performance of this network is tested on the DRIVE database, and it achieves the best score in terms of sensitivity in comparison to the other methods published so far.
 
 #### Remenber to modify the dataset path according to your setting.
 
